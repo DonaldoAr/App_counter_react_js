@@ -9,4 +9,4 @@ import './index.css';
 // Create a reference
 const divRoot =document.querySelector('#root');
 
-ReactDom.render(<PrimeraApp  /> ,divRoot);
+ReactDom.render(<PrimeraApp saludo='Hola mundo' /> ,divRoot);
