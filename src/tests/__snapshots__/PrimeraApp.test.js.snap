@@ -7,9 +7,7 @@ exports[`Test about <PrimeraApp /> It should show <PrimeraApp /> correctamente 1
     !!! 
   </h1>
   <p>
-     
     Subtitulo
-     
   </p>
 </Fragment>
 `;
