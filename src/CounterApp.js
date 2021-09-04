@@ -1,10 +1,8 @@
 // rafcp
-
 import React, {useState} from 'react';
 import PropTypes from 'prop-types'
 
-const CounterApp = ({value}) => {
-    
+const CounterApp = ({value = 10}) => {
     const [counter, setCounter] = useState( value ); // Returns a two valors
     //const [reset, setReset] = useState( value);
     //const [rest, setRest] = useState(value);
@@ -18,7 +16,6 @@ const CounterApp = ({value}) => {
     const handleReset = () =>setCounter(value);
     const handleSustract = () =>setCounter((c)=>c-1);
     
-
     return(
         <>
             <h1>CounterApp</h1>
@@ -30,7 +27,6 @@ const CounterApp = ({value}) => {
             <button onClick={handleSustract}>-1</button>
         </>
     );
-
 }
 
 CounterApp.propTypes = {

@@ -32,13 +32,6 @@ describe('Test about <PrimeraApp />', ()=>{
          // Buscate un parrafo
          const textoParrafo = wrapper.find('p').text();
          // console.log(textoParrafo);
-         expect( textoParrafo ).toBe( subtitulo );
-         
-
-        
+         expect( textoParrafo ).toBe( subtitulo );      
    });
-
-
-
-
 });
